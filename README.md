@@ -1,3 +1,11 @@
+# BIG NOTE: 
+
+This is a project, [found here](https://bitbucket.org/m1hael/message/src/master/) was originally created by [m1h431](https://github.com/m1h43l). I have simply attempted to make it so that the project could be deployed using IBM i Bob. 
+
+Minor changes were made to facilitate the use of Bob and certain functions, such as automatic migration of the copybook and cleanup are either not currently possible with Bob or I am unaware of a method to do so.
+
+##
+
 # Message
 This service program provides wrappers for the OS message API QMHRCVPM, QMHRSNEM
 and QMHSNDPM. It eases the handling of program and escape messages.
