@@ -1,0 +1,13 @@
+{
+  "description": "Message service program for sending and retrieving message on IBM i.",
+  "version": "1.2.0",
+  "repository": "https://bitbucket.org/m1hael/message/src/master/",
+  "objlib": "&OBJLIB",
+  "curlib": "&OBJLIB",
+  "includePath": [
+    "qrpgleref"
+  ],
+  "tgtCcsid": "*JOB",
+  "compileCommand": "/QOpenSys/pkgs/bin/makei compile -f {filename}",
+  "buildCommand": "/QOpenSys/pkgs/bin/makei build"
+}
